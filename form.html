@@ -9,28 +9,36 @@
         <form>
             <div> <!--next line -->
                 <lable>Enter First Name</lable>
-                <input type="text" name="firstName">
+                <input type="text" name="firstName" placeholder="Enter First Name" required 
+                minlength="3" maxlength="15" autocomplete="off">
             </div>
             <br>
                 <lable>Enter Last Name</lable>
-                <input type="text" name="lastName">
+                <input type="text" name="lastName" placeholder="Enter Last Name" required autocomplete="off">
             <br> 
             <br><!--next line-->
             <!-- e-mail -->
                 <lable>Enter Email Id</lable>
-                <input type="email" name="email">
+                <input type="email" name="email" autocomplete="off">
             <br>
             <br>
             <div>
                 <label>Enter The Password</label>
-                <input type="password" name="password">
+                <input type="password" name="password" placeholder="Password" required autocomplete="off">
             </div>
             <br>
             <div>
                 <lable>Select Gender</lable>
                 <input type="radio" name="gender">Male
                 <input type="radio" name="gender">Female
-                <input type="radio" name="gender">Others
+                <input type="radio" name="gender" checked>Others
+            </div>
+            <br>
+            <div>
+                <label>Select Course</label>
+                <input type="checkbox" disabled>Java
+                <input type="checkbox">Python
+                <input type="checkbox">DotNet
             </div>
             <br>
             <div>
@@ -50,17 +58,49 @@
             </div>
             <br>
             <div>
-                <lable>Mobile Number</lable>
-                <input type="text" pattern="[789][0-9]{9}">
+                <label>Age</label>
+                <input type="number" name="age" placeholder="Age" required min="18" max="30">
             </div>
             <br>
             <div>
-                <label>Adrees</label>
-                <addre>
-
-                </addre>
+                <lable>Mobile Number</lable>
+                <input type="text" pattern="[789][0-9]{9}" name="mobile number" autocomplete="off">
             </div>
-            <!--todays task-->
-            <!-- dateofBirth, MoblieNumber, address -->
+            <br>
+
+            <div>
+                <lable>Mobile Number</lable>
+                <input type="tel" name="Mobile Number" placeholder="+91 123456789" autocomplete="off">
+            </div>
+            <br>
+
+            <div>
+                <label>Adrees</label>
+                <textarea rows="5" cols="10"  required minlength="15" maxlength="150" autocomplete="off"></textarea>
+            </div>
+            <br>
+            <!--doc upload -->
+            <div>
+                <label>Select File/Resume</label>
+                <input type="file" name="uploadFile" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+
+            <br>
+            <div>
+                <button type="submit"> Submit </button> 
+                <button type="reset">Reset</button>
+            </div>
+
+            <!--validation verification-->
+
+            
     </body>
 <html>
+
+<!--todays task-->
+<!--html5 validation   
+how to turn off autosuggestion in html5 file-->
