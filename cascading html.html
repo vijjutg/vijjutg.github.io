@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cascading</title>
+
+        <!--Internal CSS-->
+        <!-- Syntax of CSS
+        selector{
+            property : value;
+        }
+        -->
+
+        <style>
+            h1,h2 {
+                color: red;
+                font-size: 50px;
+                text-transform: uppercase;
+            }
+            h3 {
+                color: purple;
+                font-size: 40px;
+                text-transform: lowercase;
+            }
+            .clasSelector {
+                color: green;
+                font-family: cursive;
+                text-decoration: underline;
+            }
+            .clasSelector1 {
+                color: brown;
+            }
+            .clasSelector2 {
+                color: crimson;
+            }
+            .clasSelector3 {
+                color: darkkhaki;
+            }
+            .clasSelector4 {
+                color: lightgreen
+            }
+            #header {
+                color: aqua;
+                font-size: 60px;
+            }
+            h4 {
+                font-size: 200px;
+                text-transform: lowercase;
+            }
+            h5 {
+                color: mediumvioletred;
+                text-transform: lowercase;
+            }
+           
+        </style>
+
+    </head>
+    <body>
+        <h1>Cascading Stylesheet</h1>
+        <h2>Gruoping Selector</h2>
+        <h3>Element selector</h3>
+        <h1 class="clasSelector">Class Selector</h1>
+        <h1 class="clasSelector1">Class Selector</h1>
+        <h1 class="clasSelector2">Class Selector</h1> <!--Change color-->
+        <h1 class="classSelector3">Class Selector</h1> <!--Change color-->
+        <h1 class="classSelector4">Class Selector</h1> <!--Change color-->
+
+        <h3 class="clasSelector" id="header"> ID selector</h3>
+
+        <h3 id="header">Id selector</h3>
+        <h4>Cascading Stylesheet</h4>
+        <h5>Cascading Stylesheet</h5>
+        
+        <!--Priority
+        Class selectors
+        Id selector
+        Element selector
+        -->
+        
+    </body>
+
+</html>
+<!--todays task-->
+<!--<h2>Cascading Stylesheet</h2> css - 200px - lowercas
+<h3>Cascading Stylesheet</h3> css - color - lowercas -->
+
+<!--different selector
+1.Element selector
+2.Gruoping Selector(reuse)
+3.Class Selector(multiple name)
+4.Id selector
+-->
