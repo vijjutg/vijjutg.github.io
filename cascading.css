@@ -1,0 +1,17 @@
+.clasSelector {
+    color: blueviolet;
+}
+.classSelector1 {
+    color: darkcyan;
+}
+.classSelector2 {
+    color: deeppink;
+}
+h4 {
+   font-size: 200px;
+   text-transform: lowercase;
+}
+h5 {
+    color: lightgreen;
+    text-transform: lowercase;
+}

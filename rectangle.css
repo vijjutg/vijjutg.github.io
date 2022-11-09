@@ -1,0 +1,26 @@
+.rect {
+    border: 3px solid darkkhaki;
+    height: 100px;
+    width: 200px;
+}
+.rect {
+    border: 3px solid gold;
+    height: 100px;
+    width: 200px;
+    background-image: ;
+}
+.box {
+    padding: 20px 20px 30px 40px;
+    border: 2px solid green;
+    background-color: aqua;
+}
+.box1 {
+    padding: 40px 40px 40px 40px;
+    border: 2px solid blueviolet;
+    background-color: sandybrown;
+}
+.box2 {
+    padding: 50px 50px 50px 50px;
+    border: 2px solid mediumspringgreen;
+    background-color: yellow;
+}

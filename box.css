@@ -1,0 +1,20 @@
+.box {
+    padding : 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding: 10px 20px 30px 40px;
+
+    border: 2px solid green;
+    border: 5px dotted red; 
+    
+    margin: 50px;
+
+    background-color: hotpink;
+}
+
+.rect {
+    border: 2px solid greenyellow;
+    height: 50px;
+    width: 100px;
+}
