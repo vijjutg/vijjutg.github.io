@@ -1,14 +1,4 @@
-.rect {
-    border: 3px solid darkkhaki;
-    height: 100px;
-    width: 200px;
-}
-.rect {
-    border: 3px solid gold;
-    height: 100px;
-    width: 200px;
-    background-image: ;
-}
+
 .box {
     padding: 20px 20px 30px 40px;
     border: 2px solid green;
@@ -23,4 +13,34 @@
     padding: 50px 50px 50px 50px;
     border: 2px solid mediumspringgreen;
     background-color: yellow;
+}
+.rect1 {
+    border: 10px solid chartreuse;
+    width: 400px;
+    height: 200px;
+}
+.rect2 {
+    border: 10px solid violet;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+}
+.rect3 {
+    border: 10px solid fuchsia;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+.rect4 {
+    border: 10px solid hotpink;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+body {
+    background-image: url('E:\\Pictures\\Screenshots\\WhatsApp Image 2021-08-09 at 5.55.21 PM.jpeg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
