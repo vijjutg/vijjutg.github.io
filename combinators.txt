@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+	    <title> Combinators </title>
+		<link rel="stylesheet" href="Combinator.css" >
+	</head>
+	<body>
+	    <div>
+		<p> git init
+            git add README.md </p>
+		<p>git commit -m "first commit"
+            git branch -M main </p>
+			<span>
+			    <p> kkjahLJE;LAinrncilecr;oewtmgjl </p>
+			</span>
+		</div>
+		<p> this is a paragraph </p>
+		<p> this is also a paragraph </p>
+		<div class= "static">
+		    Position property applying for static 
+		</div>
+		<div class= "relative">
+		    Position property applying for relative 
+		</div>
+		<div class="absolute" >
+		position property applying absolute
+		</div>
+		<div class="imageparent">
+		<img class="circle" src="RCB.jpg">
+		<span class="topleft"> Virat Kohli </span>
+		</div>
+		
+	</body>
+</html>

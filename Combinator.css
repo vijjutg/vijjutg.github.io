@@ -1,0 +1,138 @@
+/*Descendant selector*/
+div p {
+	color: red;
+}
+
+/* Child selector */
+div > p {
+	color: green;
+}
+
+/*Adjacent Sibling SElector */
+div + p {
+	color: blue;
+}
+
+/* General sibling selector */
+div ~ p {
+	color: rgb(10,20,50)
+}
+
+.static {
+	position: static;
+	top: 10px;
+	color: green;
+}
+
+.relative {
+	position: relative;
+	left: 200px;
+	top: -240px;
+	color: blue;
+}
+
+.absolute {
+	position: absolute;
+	left: 100px;
+	color: rgb(170, 10, 37)
+}
+
+.topleft {
+    font-size: 20px;
+	position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.imageparent {
+	position: relative;
+	color: red;
+}
+
+body {
+	margin: 0;
+}
+
+.circle {
+	border-radius: 10%;
+	height: 600px;
+	width: 800px;
+}
+.max {
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	top: 270px;
+}
+.siraj {
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	top: 550px;
+}
+.faf {
+	font-size: 20px;
+	position: absolute;
+	left: 330px;
+	top: 550px;
+}
+.harsh {
+	font-size: 20px;
+	position: absolute;
+	left: 330px;
+	top: 270px;
+	color: darkgray;
+}
+.dinesh {
+	font-size: 20px;
+	position: absolute;
+    top: 20px;
+    left: 330px;
+}
+.anuj {
+	font-size: 20px;
+	position: absolute;
+    top: 20px;
+    left: 680px;
+}
+.akash {
+	font-size: 20px;
+	position: absolute;
+    top: 270px;
+    left: 680px;
+}
+.sid {
+	font-size: 20px;
+	position: absolute;
+    top: 550px;
+    left: 670px;
+}
+.fixed {
+	position: fixed;
+	color: blueviolet;
+	top: 0;
+	right: 0;
+	background-color: cornsilk;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+	background-color: darksalmon;
+}
+ul {
+	list-style-type: none;
+	color: deeppink;
+	background-color: darkturquoise;
+}
+li {
+	padding: 5px;
+}
+}
+/*
+color property
+1.RGB
+2.Hex
+3.Hsl
+*/
+
+/*Position*/
