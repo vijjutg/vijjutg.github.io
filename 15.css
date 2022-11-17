@@ -21,3 +21,12 @@ li {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  body {
+    background-color: blue;
+  }
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: aqua;
+    }
+  }
