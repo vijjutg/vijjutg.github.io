@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.facebook_content h1 {
+    font-size: 62px;
+    color: #1877f2;
+    font-weight: bolder;
+}
+
+.facebook_content p {
+    color: #040404;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.login {
+    width: 400px;
+    height: 350px;
+    background: #ddd;
+    box-shadow: 0 0 14px 0px #979797;
+}
+
+.login input {
+    display: block;
+    width: 360px;
+    height: 52px;
+    padding: 5xp;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.log_in {
+    width: 360px;
+    height: 52px;
+    background: #166fe5;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.forget_ps {
+    padding: 10px 0;
+    color: #166fe5;
+}
+
+.create_account {
+    width: 176px;
+    height: 52px;
+    background: #469b34;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}

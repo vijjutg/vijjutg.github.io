@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+section {
+    background-color: #f0f2f5;
+    height: 650px;
+}
+
+.fb-ifno h2 {
+    color: #166fe5;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.emails .mail {
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    border: 2px solid #bbb;
+}
+
+.emails .mail:hover {
+     box-shadow: 0 0 10px #999;
+}
+
+.emails .mail img {
+    border-radius: 15px 15px 0 0;
+}
+
+.emails .mail p {
+    font-size: 18px;
+}
+.emails .mail .notiify {
+    position: absolute;
+    top: -4%;
+    right: -4%;
+    padding: 3px 10px;
+}
+
+.emails .mail .delete {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    padding: 3px 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+.emails .mail .delete:hover
+.emails .mail:hover .delete {
+    background-color: #fff;
+    color: #999;
+}
+
+.emails .add-mail {
+    height: 220px;
+    background-color: #f0f2f5;
+    overflow: hidden;
+    position: relative;
+}
+
+.emails .add-mail i {
+    color: #fff;
+    background-color: #166fe5;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+.emails .add-mail div {
+    background-color: #fff;
+    width: 100%;
+}

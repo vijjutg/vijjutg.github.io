@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-4 col-sm-3">
+           <img src="bird.jpg">
+        </div>
+        <br>
+        <div class="col-lg-4 col-sm-3">
+            <table class="table">
+                <tr>
+                    <th>Sl.no</th>
+                    <th>juice</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Apple</td>
+                    <td>750</td>
+                    <td>40</td>
+                </tr>
+            </table>  
+       </div>
+       <br>
+       <div class="col-lg-4 col-sm-3">
+        <form>
+            <div>
+                <lable>Enter Name</lable>
+                <input type="text" name="lastName" placeholder="Enter Name" required autocomplete="off">
+            </div>
+            <br> 
+            <div>
+                <lable>Enter Email Id</lable>
+                <input type="email" name="email" autocomplete="off">
+            </div>
+            <br>
+            <div>
+                <label>Enter The Password</label>
+                <input type="password" name="password" placeholder="Password" required autocomplete="off">
+            </div>
+            <br>
+            <div>
+                <lable>Select Gender</lable>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others
+            </div>
+            <br>
+            <div>
+                <label>Select City</label>
+                <select>
+                    <option>Bangalore</option>
+                    <option>Mysore</option>
+                    <option>Mangalore</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <lable>
+                    Date Of Birth
+                    <input type="date" name="birthDay">
+                </lable>
+            </div>
+            <br>
+            <div>
+                <label>Adrees</label>
+                <textarea rows="2" cols="5"  required minlength="5" maxlength="150" autocomplete="off"></textarea>
+            </div>
+        </form>
+       </div>
+    </div>
+</body>
+</html>
