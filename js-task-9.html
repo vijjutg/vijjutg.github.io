@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add()
+{
+  var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+  sum = numOne + numTwo;
+  document.getElementById("answer").value = sum;
+}
+
+function displayData() {
+            console.log("Rohit Sharma")
+            let message = document.getElementById("name")
+            console.log(message)
+            message.innerHTML = "Rohit Sharma"
+            message.style.color = "skyblue"
+}
+</script>
+</head>
+<body>
+
+<p>Enter the First Number: <input id="first"></p>
+<p>Enter the Second Number: <input id="second"></p>
+<button onclick="add()">Add</button>
+<p>Sum = <input id="answer"></p>
+<h2>India</h2>
+<div id="name"></div>
+<button onclick="displayData()">Player</button>
+
+</body>
+</html>

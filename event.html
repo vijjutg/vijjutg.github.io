@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function displayData() {
+            console.log("Calling display data..")
+            let message = document.getElementById("message")
+            console.log(message)
+            message.innerHTML = "Calling display data"
+            message.style.color = "skyblue"
+        }
+
+        function details() {
+            console.log("calling deatials")
+            let name = document.getElementById("name")
+            console.log(name)
+            console.log(name.value)
+           let detail =  document.getElementById("detail")
+           detail.innerHTML = name.value
+        }
+
+        function addition() {
+            console.log("Calling addition..")
+            
+        }
+    </script>
+
+
+</head>
+<body>
+    <div id="message"></div>
+    <button onclick="displayData()">Click</button>
+    <form>
+        <div>
+            <label>Enter name</label>
+            <input type="text" id="name">
+        </div>
+        <button onmouseover="details()">Submit</button>
+        <div id="detail"></div>
+    </form>
+    <form>
+        <div>
+            <label>Enter Number1</label>
+            <input type="text" id="num1" >
+        </div>
+        <div>
+        <label>Enter Number2</label>
+        <input type="text" id="num2" >
+        </div>
+        <button onclick="addition()">Addition</button>
+        
+    </form>
+   
+</body>
+</html>
+<!--task
+cricket team members name when button clicked-->

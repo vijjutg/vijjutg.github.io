@@ -59,15 +59,56 @@
       document.write("<h3>Java Script</h3>")
       document.write("<h4>Java Script</h4>")
       document.write("<h5>Java Script</h5>")
-      document.write("<h6>Java Script</h6>")
+      document.write('<b>' + "<h6>Java Script</h6>")
 
-     alert("Java Script in alert..")
-     let result = confirm("getting alert message")
-     console.log(result)
+    // alert("Java Script in alert..")
+    // let result = confirm("getting alert message")
+    // console.log(result)
 
-     let res = prompt("what is your name")
-     console.log(res)
-     document.write(res)
+    // let res = prompt("what is your name")
+    // console.log(res)
+    // document.write(res)
+
+    //How to pass arguments to function in JS
+
+    function dispaly(a, b) {
+      console.log(a+b)
+    }
+    dispaly(19,24)
+
+    //How to return data from function in JS
+
+    function sub(a,b)
+    {
+      return a-b
+    }
+
+    let result = sub (20,10)
+    console.log(result)
+
+    //How to declare constant in Js
+    const pi = 3.142 
+    console.log(pi)
+
+    //pi = 4.3
+    //console.log(pi)
+
+   for (let i=0; i<3; i++)
+   {
+
+        for (let j=0; j<=i; j++) {
+        document.write("*")
+        }
+    document.write("<br>")
+   }
+
+   for (let i=3; i>0; i++) {
+
+    for (let j=i; j>0; j++) {
+    document.write("*")
+    }
+    document.write("<br>")
+   }
      
     </script>
 </head>
